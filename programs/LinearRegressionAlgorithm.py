@@ -31,7 +31,7 @@ print(f"Mean squared error (MSE): {mse:.3f}")
 print(f"R² (coefficient of determination): {r2:.3f}")
 
 # Order data for the print
-sort_idx = np.argsort(X_test[:, 0])
+sort_idx = np.argsort(x_test[:, 0])
 x_sorted = x_test[sort_idx]
 y_pred_sorted = y_pred[sort_idx]
 
